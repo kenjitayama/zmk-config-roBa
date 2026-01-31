@@ -64,10 +64,10 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W               &kp E           &kp R               &kp T                                                                                  &kp Y        &kp U  &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A  &mt LEFT_CONTROL S  &lt 3 D         &kp F               &kp G                        &none                       &kp APOS                      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z               &kp X               &kp C           &kp V               &kp B                        &lt_to_layer_0 6 SPACE      &lt_to_layer_0 4 BACKSPACE    &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp CAPS            &kp LEFT_SHIFT  &mt LEFT_ALT MINUS  &mt LEFT_COMMAND LANGUAGE_2  &lt 4 KP_PLUS               &mt RIGHT_COMMAND LANGUAGE_1  &lt 3 ENTER                             &lt 5 ESC
+&kp Q               &kp W               &kp E           &kp R               &kp T                                                                                  &kp Y      &kp U  &kp I      &kp O    &kp P
+&mt LEFT_CONTROL A  &mt LEFT_CONTROL S  &lt 3 D         &kp F               &kp G                        &none                       &kp APOS                      &kp H      &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z               &kp X               &kp C           &kp V               &kp B                        &lt_to_layer_0 6 SPACE      &lt_to_layer_0 4 BACKSPACE    &kp N      &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&mt LEFT_SHIFT TAB  &kp CAPS            &kp LEFT_SHIFT  &mt LEFT_ALT MINUS  &mt LEFT_COMMAND LANGUAGE_2  &lt 4 KP_PLUS               &mt RIGHT_COMMAND LANGUAGE_1  &kp ENTER                             &lt 3 ESC
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -93,9 +93,9 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans          &kp UP_ARROW    &trans           &trans
-&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &trans          &trans          &trans           &trans
+&kp ESCAPE      &kp LC(LS(TAB))         &kp UP_ARROW    &kp LC(TAB)              &trans                       &trans  &trans          &trans          &trans           &trans
+&kp HOME        &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp END  &trans      &trans  &trans  &trans          &kp UP_ARROW    &trans           &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &trans   &trans      &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &trans
             >;
 
