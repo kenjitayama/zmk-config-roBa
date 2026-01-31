@@ -67,7 +67,7 @@
 &kp Q               &kp W               &kp E           &kp R                  &kp T                                                                                  &kp Y        &kp U  &kp I      &kp O    &kp P
 &mt LEFT_CONTROL A  &mt LEFT_CONTROL S  &lt 3 D         &kp F                  &kp G                        &none                       &kp APOS                      &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &kp Z               &kp X               &kp C           &kp V                  &kp B                        &lt_to_layer_0 6 SPACE      &lt_to_layer_0 4 BACKSPACE    &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&mt LEFT_SHIFT TAB  &kp CAPS            &kp LEFT_SHIFT  &mt LEFT_ALT KP_MINUS  &mt LEFT_COMMAND LANGUAGE_2  &lt 4 KP_PLUS               &mt RIGHT_COMMAND LANGUAGE_1  &lt 2 ENTER                             &lt 5 ESC
+&mt LEFT_SHIFT TAB  &kp CAPS            &kp LEFT_SHIFT  &mt LEFT_ALT KP_MINUS  &mt LEFT_COMMAND LANGUAGE_2  &lt 4 KP_PLUS               &mt RIGHT_COMMAND LANGUAGE_1  &lt 3 ENTER                             &lt 5 ESC
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
