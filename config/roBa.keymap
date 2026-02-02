@@ -12,6 +12,7 @@
 
 &trackball {
     // automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -65,7 +66,7 @@
         default_layer {
             bindings = <
 &kp Q                    &kp W               &kp E    &kp R              &kp T                                                                          &kp Y        &kp U    &kp I      &kp O    &kp P
-&mt LEFT_CONTROL A       &mt LEFT_CONTROL S  &lt 2 D  &lt 6 F            &kp G                        &none               &kp APOS                      &kp H        &lt 6 J  &lt 2 K    &kp L    &lt 3 SEMICOLON
+&mt LEFT_CONTROL A       &mt LEFT_CONTROL S  &lt 2 D  &lt 6 F            &kp G                        &none               &kp APOS                      &kp H        &lt 6 J  &lt 4 K    &kp L    &lt 3 SEMICOLON
 &mt LEFT_SHIFT Z         &kp X               &kp C    &kp V              &kp B                        &kp SPACE           &kp BACKSPACE                 &kp N        &kp M    &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
 &lt_to_layer_0 7 ESCAPE  &kp MINUS           &kp TAB  &mt LEFT_ALT PLUS  &mt LEFT_COMMAND LANGUAGE_2  &lt 5 CAPSLOCK      &mt RIGHT_COMMAND LANGUAGE_1  &lt 1 ENTER                               &kp CAPSLOCK
             >;
