@@ -20,7 +20,7 @@ layers:
   - ''''
   - H
   - {t: J, h: SYMBOL}
-  - {t: K, h: NUM}
+  - {t: K, h: MOUSE}
   - L
   - {t: ;, h: ARROW}
   - {t: Z, h: LEFT SHIFT}
@@ -196,7 +196,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
-  - '&mkp MB3'
+  - {t: '&mkp MB3', type: held}
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
