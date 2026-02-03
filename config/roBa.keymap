@@ -65,10 +65,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W                              &kp E                 &kp R         &kp T                                                    &kp Y                         &kp U    &kp I      &kp O    &mt RIGHT_CONTROL P
-&mt LEFT_CONTROL A       &mt LEFT_CONTROL S                 &lt 2 D               &lt 6 F       &kp G                        &none          &kp APOS     &kp H                         &lt 6 J  &lt 4 K    &lt 5 L  &lt 3 SEMICOLON
-&mt LEFT_SHIFT Z         &kp X                              &kp C                 &kp V         &kp B                        &kp TAB        &lt 1 ENTER  &kp N                         &kp M    &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
-&lt_to_layer_0 7 ESCAPE  &mt CAPSLOCK LC(RS(LEFT_COMMAND))  &kp LC(LEFT_COMMAND)  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE      &kp SPACE    &mt RIGHT_COMMAND LANGUAGE_1                               &kp BACKSPACE
+&kp Q               &kp W                              &kp E                 &kp R         &kp T                                                    &kp Y                         &kp U    &kp I      &kp O    &mt RIGHT_CONTROL P
+&mt LEFT_CONTROL A  &mt LEFT_CONTROL S                 &lt 2 D               &lt 6 F       &kp G                        &none          &kp APOS     &kp H                         &lt 6 J  &lt 4 K    &lt 5 L  &lt 3 SEMICOLON
+&mt LEFT_SHIFT Z    &kp X                              &kp C                 &kp V         &kp B                        &kp TAB        &lt 1 ENTER  &kp N                         &kp M    &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp ESCAPE          &mt CAPSLOCK LC(RS(LEFT_COMMAND))  &kp LC(LEFT_COMMAND)  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &kp SPACE      &kp SPACE    &mt RIGHT_COMMAND LANGUAGE_1                               &kp BACKSPACE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -76,10 +76,10 @@
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &to 8   &trans      &trans   &trans                          &kp F12
+&trans  &trans  &trans  &trans                       &trans                       &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&trans  &trans  &trans  &trans                       &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&trans  &trans  &trans  &trans                       &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans  &trans  &lt_to_layer_0 7 LEFT_SHIFT  &to 8   &trans      &trans   &trans                          &kp F12
             >;
         };
 
